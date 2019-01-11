@@ -1,2 +1,2 @@
-# MythicGears.github.io
-WordsWordsWordsWordsWords
+# My personal homepage
+
