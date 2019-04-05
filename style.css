@@ -22,6 +22,7 @@ main {
 }
 aside {
 	width: 15em;
+	padding-left: 1em;
 }
 img {
 	max-width: 100%;
@@ -81,4 +82,19 @@ h2 {
 	position: relative;
 	height: auto;
 	max-width: 120%;
+}
+.Autobots {
+ color: red;
+}
+
+.Decepticons {
+ color: purple;
+}
+
+.Thirteen {
+ color: green;
+}
+
+.Time {
+ color: #3BB8B7;
 }
