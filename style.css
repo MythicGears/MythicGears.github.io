@@ -78,13 +78,36 @@ h2 {
 	margin-bottom: 3em;
 }
 
+.robot-entry-time h1 {
+	font-weight: 400;
+	font-size: 20;
+	transform: rotate(270deg);
+	position: absolute;
+	transform-origin: left;
+	bottom: -1.75em;
+	left: -1em;
+}
+
+.robot-entry-time{
+	position: relative;
+	border: 6px solid;
+	border-top: none;
+	border-right: none;
+	border-color: #3BB8B7;
+	height: 12em;
+	width: 18em;
+	margin-left: 2em;
+	margin-bottom: 3em;
+}
+
 .robot-images img{
 	position: relative;
 	height: auto;
 	max-width: 120%;
 }
 .Autobots {
- color: red;
+  color: red;
+
 }
 
 .Decepticons {
@@ -97,4 +120,60 @@ h2 {
 
 .Time {
  color: #3BB8B7;
+}
+
+
+
+
+/* New stuffs */
+#active-slide {
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+#inactive-slide {
+  opacity: 0;
+  position: absolute;
+}
+.bullets {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bullet {
+  background: grey;
+  height: 0.75em;
+  width: 0.75em;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 0 0.25em 0.25em;
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
+#active-bullet {
+  opacity: 1;
+}
+
+#autobots main section,
+#decepticons main section,
+#time main section,
+#thirteen main section {
+  display: none;
+}
+#autobots main .robot-entry-bot {
+  display: block;
+}
+#decepticons main .robot-entry {
+  display: block;
+}
+
+#time main .robot-entry-time {
+  display: block;
+}
+
+.Autobots,
+.Decepticons,
+.Thirteen,
+.Time {
+  cursor: pointer;
 }
